@@ -1,0 +1,137 @@
+.hero{
+    background-color: #916ad5;
+    font-family: "Raleway", serif;
+   
+}
+.hero-header{
+    color: #ffffff;
+}
+.hero-card{
+    background-color: #ffffff;
+}
+.hero-icons img{
+    height: 80px;
+    width: 95px;
+}
+.hero-link{
+    color: #ffffff;
+}
+.hero-link span a{
+    color: #ffffff;
+}
+
+/* ------------------- */
+.stimulate{
+    background-color: #f9f9f9;
+}
+.st-1{
+    font-weight: 600;
+    font-family: "Raleway", serif;
+}
+.st-2{
+    color: #999999;
+}
+.st-2 a{
+    color: #808080;
+}
+.st-3{
+    font-family: "Open Sans", serif;
+    color: #111111;
+    font-weight: 500;
+}
+.sb1{
+    border-radius: 5px;
+}
+.b1{
+    font-family: "Raleway", serif;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.b12{
+    line-height: 1;
+}
+.b12 span{
+    font-weight: 600;
+}
+.gp{
+    text-wrap: nowrap;
+}
+.m-app{
+    background-color:#d8c8f2;
+    color: #a37fdf;
+    border: none;
+}
+
+/* ------------------- */
+
+.what{
+    background-color: #260556;
+    font-family: "Raleway", serif;
+}
+.wp1{
+    color: #ffffff;
+}
+.wp2{
+    color: #bda3e9
+}
+.wp3{
+    color: #d8c8f2
+}
+.wb{
+    border-radius: 13px;
+    background-color: #a37fdf;
+    border: none;
+}
+.wb span{
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: "Raleway", serif;
+    
+}
+
+.p-img img{
+    width: 100vw;
+    
+    
+}
+
+/* ------------------------ */
+.test{
+    background-color: #f2f2f2;
+
+}
+.test-header{
+    font-family: "Raleway", serif;
+}
+.test-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 12px 16px 19px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 16px 19px -18px rgba(0,0,0,0.75);
+    box-shadow: 12px 16px 19px -18px rgba(0,0,0,0.75);
+}
+.th-1{
+    font-family: "Raleway", serif;
+}
+.tp2{
+    font-family: "Open Sans", serif;
+    font-style: italic;
+    line-height: 2;
+    
+}
+
+/* ---------------------- */
+
+.company{
+    background-color: #250455;
+
+}
+.co-header{
+    color: #ffffff;
+    font-family: "Raleway", serif;
+}
+.cp1{
+    color: #ffffff;
+    font-family: "Open Sans", serif;
+
+}
