@@ -267,6 +267,13 @@
     border-radius: 10px;
     z-index: 4;
 }
+.about-card1{
+    background-color: #a37fdf;
+    color: #ffffff;
+    border-radius: 10px;
+    z-index: 4;
+    width: 400px;
+}
 .abt-btn{
     background-color: #a37fdf;
     border-radius: 13px;
@@ -277,10 +284,7 @@
     letter-spacing: 3px;
     font-family: "Raleway", serif;
 }
-.way-1{
-   
-    
-}
+
 .way-1 img{
     height: 500px !important;
     width: 400px;
@@ -291,10 +295,26 @@
     left: 30%
 }
 
+.way-11 img{
+    height: 500px !important;
+    width: 400px;
+    position: absolute;
+    border-radius: 15px;
+    top: 38%;
+    z-index: 2;
+}
+
 .way-2 img{
     position: relative;
     z-index: 8;
     border-radius: 15px;
+}
+.way-22 img{
+    position: relative;
+    z-index: 8;
+    border-radius: 15px;
+    top: 100%;
+    width: 380px;
 }
 /* ------------------- */
 .our{
@@ -316,8 +336,45 @@
 /* ----------------------- */
 .get{
     background-color: #250455;
+    color: #ffffff;
+    font-family: "Open Sans", serif;
 
 }
 .get-in{
     background-color: #a37fdf;
+}
+.get-head{
+    color: #ffffff;
+    font-family: "Raleway", serif;
+}
+.get a{
+    color: #f0adf4;
+    font-family: "Open Sans", serif;
+}
+/* ------------- */
+.lvl{
+    background-color: #250455;
+}
+.lvl-in{
+    background-color: #ffffff;
+}
+.lvl-head{
+    font-family: "Raleway", serif;
+}
+.lvl a{
+    color: #f0adf4;
+    font-family: "Open Sans", serif;
+}
+.lvl input{
+    background-color: #f2f2f2;
+    border: none;
+}
+.lvl textarea{
+    background-color: #f2f2f2;
+    border: none;
+}
+.lvl button{
+    background-color: #a37fdf;
+    color: #ffffff;
+    border: none;
 }
