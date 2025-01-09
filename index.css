@@ -124,14 +124,200 @@
 
 .company{
     background-color: #250455;
+    position: relative;
 
+}
+.co-bg{
+    height: 250px;
+    background-color: #a37fdf;
+    z-index: 1;
+    position: absolute;
+    top: 60vh;
+    width: 100%;
+   
+    
 }
 .co-header{
     color: #ffffff;
     font-family: "Raleway", serif;
+    z-index: 2;
+   
 }
 .cp1{
     color: #ffffff;
     font-family: "Open Sans", serif;
+    z-index: 2;
+    
+}
+.co-card{
+    background-color: #ffffff;
+    border-radius: 15px;
+    z-index: 5;
+    position: relative;
+   
+}
+.co-card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.co-card-head{
+    font-family: "Raleway", serif;
+    color: #a37fdf;
+    z-index: 2;
+    
+}
+.co-btn{
+    border-radius: 13px;
+    background-color: #a37fdf;
+    border: none;
+    z-index: 2;
+   
+}
+.co-btn span{
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: "Raleway", serif;
+    font-weight: 600;
+    z-index: 2;
+    
+}
+/* ------------------------------- */
+.way{
+    background-color: #f2f2f2;
+}
+.way-header{
+    font-family: "Raleway", serif;
+}
+.wa1{
+    font-family: Open ,sans-serif;
+}
+.inp{
+    border: none;
+    border-bottom: solid 1px #111111;
+    font-family: "Open Sans", serif;
+    
+}
+.way-btn{
+    border-radius: 13px;
+    background-color: #a37fdf;
+    border: none;
+}
+.way-btn span{
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: "Raleway", serif;
+}
+.wy1{
+    font-family: "Open Sans", serif;
+    font-style: italic;
+}
+.wy2{
+    font-family: "Raleway", serif;
+}
+/* ------------------------- */
+.port{
+    background-color: #250455;
+    position: relative;
 
+}
+.port-img{
+    position: relative;
+    z-index: 2;
+}
+.port-bg{
+    background-color: #a37fdf;
+    width: 26vw;
+    height: 86%;
+    position: absolute;
+    z-index: 0;
+    left: 32%;
+    top: 4%;
+}
+.port-card{
+    position: relative;
+    z-index: 4;
+    background-color: #ffffff;
+    border-radius: 13px;
+    margin-top: -11%;
+    margin-left: -10%;
+
+}
+.port-head{
+    font-family: "Raleway", serif;
+}
+.pp{
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+}
+/* --------------- */
+.about{
+    background: linear-gradient(180deg, #250455 60%,#ffffff 40%);
+    position: relative;
+}
+.abt-head{
+    font-family: "Raleway", serif;
+}
+.abt-p{
+    font-family: "Open Sans", serif;
+
+}
+.about-card{
+    background-color: #a37fdf;
+    color: #ffffff;
+    border-radius: 10px;
+    z-index: 4;
+}
+.abt-btn{
+    background-color: #a37fdf;
+    border-radius: 13px;
+    border: solid #ffffff 1px;
+}
+.abt-btn span{
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: "Raleway", serif;
+}
+.way-1{
+   
+    
+}
+.way-1 img{
+    height: 500px !important;
+    width: 400px;
+    position: absolute;
+    border-radius: 15px;
+    top: 15%;
+    z-index: 0;
+    left: 30%
+}
+
+.way-2 img{
+    position: relative;
+    z-index: 8;
+    border-radius: 15px;
+}
+/* ------------------- */
+.our{
+    background-color: #f2f2f2;
+}
+.our-head{
+    font-family: "Raleway", serif;
+}
+.op{
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+}
+.oc-head{
+    color: #a37fdf;
+}
+.ocp{
+    font-family: "Open Sans", serif;
+}
+/* ----------------------- */
+.get{
+    background-color: #250455;
+
+}
+.get-in{
+    background-color: #a37fdf;
 }
