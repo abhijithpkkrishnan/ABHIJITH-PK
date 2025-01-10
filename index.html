@@ -14,17 +14,55 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./index (2).css">
+    <link rel="stylesheet" href="./index.css">
 
 </head>
 <body>
+    <!------------ Nav bar---- -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./Images/nav-logo 1.png" alt="brand-logo">
+            </a>
+            <button class="navbar-toggler" type="button" id="offcanvasNavbarLabel" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header pb-0">
+                    <button type="button" class="btn close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="bi bi-x-lg"></i>  
+                    </button>
+                </div>
+                <div class="offcanvas-body pt-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-center" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="#">Landing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="#">Our Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- hero Section -->
     <section class="hero container-fluid">
         <div class="hero-header text-center pt-5">
             <p class="display-4 fw-bold">Mobile App Development</p>
         </div>
         <div class="row ms-md-5 ps-md-5 me-md-5 px-md-5 d-flex justify-content-center align-items-center g-md-5 g-3">
-            <div class="col-lg-6 col-12">
-                <div class="hero-card text-center mx-lg-5 pb-lg-5 pb-5">
+            <div class="col-lg-6 col-md-6 col-12 fade-in">
+                <div class="hero-card text-center mx-lg-5 pb-lg-5 pb-5 zoom">
                     <div>
                         <div class="hero-icons mt-4 pt-4 pb-4 ">
                             <img src="./Images/h-strategy.png" alt="" class="img-fluid">
@@ -35,8 +73,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12">
-                <div class="hero-card text-center mx-lg-5 pb-lg-5 pb-5">
+            <div class="col-lg-6 col-md-6 col-12 fade-in">
+                <div class="hero-card text-center mx-lg-5 pb-lg-5 pb-5 zoom">
                     <div>
                         <div class="hero-icons mt-md-4 pt-4 pb-4 mt-2">
                             <img src="./Images/h-design.png" alt="">
@@ -48,8 +86,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-12 mt-md-4 mb-md-2">
-                <div class="hero-card text-center mx-lg-5 pb-lg-5 pb-5">
+            <div class="col-lg-6 col-12 col-md-6 mt-md-4 mb-md-2 fade-in">
+                <div class="hero-card text-center mx-lg-5 pb-lg-5 pb-5 zoom">
                     <div>
                         <div class="hero-icons mt-md-4 pt-4 pb-4">
                             <img src="./Images/h-develop.png" alt="">
@@ -60,8 +98,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 mt-md-4 mb-md-2">
-                <div class="hero-card text-center mx-lg-5 pb-lg-5 pb-5">
+            <div class="col-lg-6 col-md-6 col-12 mt-md-4 mb-md-2 fade-in">
+                <div class="hero-card text-center mx-lg-5 pb-lg-5 pb-5 zoom">
                     <div>
                         <div class="hero-icons mt-md-4 pt-4 pb-4">
                             <img src="./Images/h-test.png" alt="">
@@ -73,18 +111,18 @@
                 </div>
             </div>
            
-            <div class="col-12 text-center">
+            <div class="col-12 text-center fade-in">
                 <img src="./Images/hero-person.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>
-
+<!-- Stimulate Section -->
     <section class="container-fluid p-0 stimulate m-0">
-        <div class=" p-0 ">
+        <div class=" p-0 fade-in">
             <img src="./Images/stimulate-edited.png" alt="" class="img-fluid">
         </div>
         <div class="row ms-md-5 ms-md-2 ps-lg-5 g-0">
-            <div class="col-lg-9 pe-0">
+            <div class="col-lg-9 pe-0 slide-down">
                 <div class="mt-5 fs-5 ms-2 ms-md-0">
                     <button class="rounded-pill py-1 m-app"><span class="px-5">Mobile App</span></button>
                 </div>
@@ -100,13 +138,13 @@
                     </p>
                 </div>
                 <div class="text-start mb-5 row pe-md- g-0">
-                    <div class="col-md-4 col-12 ">
-                        <button class="b1 pe-md-3 pe-md- ps-3 pt-2 pb-2 mt-md-3">
-                            <div class="row me-4">
+                    <div class="col-md-4 col-12 zoom">
+                        <button class="b1 pe-md-3 ps-3 pt-2 pb-2 mt-md-3">
+                            <div class="row me-4 me-md-0">
                                 <div class="col-3 fs-1">
                                     <i class="bi bi-apple"></i>
                                 </div>
-                                <div class="col-9 b12 mt-2 mb-0">
+                                <div class="col-9 b12 mt-2 mb-0 ">
                                     <p class="pb-0 mb-0">Download on the <br>
                                     <span class="fs-3"> App Store</span>
                                     </p>
@@ -114,8 +152,8 @@
                             </div>
                         </button>
                     </div>
-                    <div class="col-md-4 me-md-4 col-12 mt-3 p-0">
-                        <button class="b1 ps-3 ms-lg-4 pt-2 pb-2">
+                    <div class="col-md-4 me-md-4 col-12 mt-3 p-0 zoom">
+                        <button class="b1 ps-3 ms-md-4 pt-2 pb-2">
                             <div class="row me-md-5">
                                 <div class="col-3 fs-1">
                                     <img src="./Images/play-icon.png" alt="" class="img-fluid">
@@ -134,7 +172,7 @@
     </section>
     <section class="container-fluid what">
         <div class="container">
-            <div class="row">
+            <div class="row slide-up">
                 <div class="col-7 ms-5">
                     <div class="fs-1 fw-bold wp1 mt-5">
                         <p>What We Do</p>
@@ -146,7 +184,7 @@
                     </div>
                    
                     <div class="mb-5 mt-5">
-                        <button class="wb px-5 py-3 fw-bold">
+                        <button class="wb px-5 py-3 fw-bold color-change">
                             <span>READ MORE</span>
                         </button>
                     </div>
@@ -157,31 +195,31 @@
        
     </section>
 
-    <div class="p-img">
+    <div class="p-img fade-in">
         <img src="./Images/p-img-edited.png" alt="" class="img-fluid">
     </div>
-
+<!---------- Test Section----------- -->
    <section class="container-fluid test">
         <div class="container">
-            <div class="test-header text-center display-4 fw-bold">
+            <div class="test-header text-center display-4 fw-bold slide-down">
                 <p class="pt-5">
                     Testimonials
                 </p>
             </div>
-            <div class="tp1 text-center fs-4">
+            <div class="tp1 text-center fs-4 slide-down">
                 <p>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
             </div>
-            <div class="row d-flex  align-items-center mx-md-5 px-md-5 mt-md-5">
-                <div class="col-lg-6 px-md-5">
+            <div class="row d-flex  align-items-center mx-lg-5 px-lg-5 mt-lg-5">
+                <div class="col-lg-6 col-md-6 px-md-5 fade-in zoom">
                     <div class="test-card mb-5">
                         <div class="d-flex">
                             <div  class="ms-4 th-1 fw-bold fs-5  mt-5 ">
                                 Celia Almeda
                             </div>
                             <div class="text-end ">
-                                <img src="./Images/icon-img.png" alt="" class="mt-3 text-end ps-5 ms-5">
+                                <img src="./Images/icon-img.png" alt="" class="mt-3 text-end ps-5 ps-md-3 ps-lg-5 ms-5">
                             </div>
                         </div>
                         <div class="tp2 fs-6 text-end pe-3 pb-5 pt-3 ">
@@ -192,14 +230,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 px-md-5">
+                <div class="col-lg-6 col-md-6 px-md-5 fade-in zoom">
                     <div class="test-card mb-5">
                         <div class="d-flex">
                             <div  class="ms-4 th-1 fw-bold fs-5  mt-5 ">
                                 Celia Almeda
                             </div>
                             <div class="text-end ">
-                                <img src="./Images/icon-img-2.png" alt="" class="mt-3 text-end ps-5 ms-5">
+                                <img src="./Images/icon-img-2.png" alt="" class="mt-3 text-end ps-5 ps-md-3 ps-lg-5 ms-5">
                             </div>
                         </div>
                         <div class="tp2 fs-6 text-end pe-3 pb-5 pt-3 ">
@@ -210,14 +248,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 px-md-5">
+                <div class="col-lg-6 col-md-6 px-md-5 fade-in zoom">
                     <div class="test-card mb-5 ">
                         <div class="d-flex">
                             <div  class="ms-4 th-1 fw-bold fs-5  mt-5 ">
                                 Celia Almeda
                             </div>
                             <div class="text-end ">
-                                <img src="./Images/icon-img-3.png" alt="" class="mt-3 text-end ps-5 ms-5">
+                                <img src="./Images/icon-img-3.png" alt="" class="mt-3 text-end ps-5 ps-md-3 ps-lg-5 ms-5">
                             </div>
                         </div>
                         <div class="tp2 fs-6 text-end pe-3 pb-5 pt-3 ">
@@ -231,23 +269,23 @@
             </div>
         </div>
    </section>
-<!-- ------------------------------------>
+<!-- ---------------Prototype--------------------->
  
-   <section class="container-fluid company g-0">
+   <section class="container-fluid company g-0 ">
     <div class="co-bg"></div>
-        <div class="co-header display-5 fw-bold text-center pt-5">
+        <div class="co-header display-5 fw-bold text-center pt-5 slide-up">
             <p>
                 Company Services
             </p>
         </div>
-        <div class="cp1 text-center fs-5 mx-5 px-3 pt-3">
+        <div class="cp1 text-center fs-5 mx-5 px-3 pt-3 slide-up">
             <p>
                 Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu .
             </p>
         </div>
-        <div class="row  mx-md-5 px-md-5 mt-md-5 g-0">
+        <div class="row  mx-lg-5 px-lg-5 mt-md-5 g-0">
            
-            <div class="col-lg-6 px-md-5">
+            <div class="col-lg-6 col-md-6 px-lg-5 fade-in zoom">
                 <div class="co-card mb-5 mx-5">
                     <div class="text-center">
                         <img src="./Images/prototyping.png" alt="" class="img-fluid">
@@ -263,21 +301,21 @@
                         </p>
                     </div>
                     <div class="text-center pb-5 mt-5">
-                        <button class="px-5 py-3 co-btn">
+                        <button class="px-5 py-3 co-btn color-change">
                             <span>LEARN MORE</span>
                         </button>
                     </div>
                 </div>
 
             </div>
-            <div class="col-lg-6 px-md-5">
+            <div class="col-lg-6 col-md-6 px-lg-5 fade-in zoom">
                 <div class="co-card mb-5 mx-5">
                     <div class="text-center">
                         <img src="./Images/prototyping.png" alt="" class="img-fluid">
                     </div>
                     <div class="co-card-head fs-4 fw-bold text-center pt-3">
                         <p>
-                            Prototyping
+                            Development
                         </p>
                     </div>
                     <div class="px-5 text-center">
@@ -286,21 +324,21 @@
                         </p>
                     </div>
                     <div class="text-center pb-5 mt-5">
-                        <button class="px-5 py-3 co-btn">
+                        <button class="px-5 py-3 co-btn color-change">
                             <span>LEARN MORE</span>
                         </button>
                     </div>
                 </div>
 
             </div>
-            <div class="col-lg-6 px-md-5">
+            <div class="col-lg-6 col-md-6 px-lg-5 fade-in zoom">
                 <div class="co-card mb-5 mx-5">
                     <div class="text-center">
                         <img src="./Images/prototyping.png" alt="" class="img-fluid">
                     </div>
                     <div class="co-card-head fs-4 fw-bold text-center pt-3">
                         <p>
-                            Prototyping
+                            Innovations
                         </p>
                     </div>
                     <div class="px-5 text-center">
@@ -309,7 +347,7 @@
                         </p>
                     </div>
                     <div class="text-center pb-5 mt-5">
-                        <button class="px-5 py-3 co-btn">
+                        <button class="px-5 py-3 co-btn color-change">
                             <span>LEARN MORE</span>
                         </button>
                     </div>
@@ -319,27 +357,27 @@
         </div>
   
    </section>
-<!-- ------------------------------------- -->
+<!-- ----------------Way Section--------------------- -->
    <section class="container-fluid way g-0">
-        <div class="way-header display-5 text-center fw-bold pt-5">
+        <div class="way-header display-5 text-center fw-bold pt-5 slide-down">
             <p>Love the way you work together?</p>
         </div>
-        <div class="wa1 text-center fs-4 mt-5 px-md-5">
+        <div class="wa1 text-center fs-4 mt-5 px-md-5 slide-down">
             <p class="px-md-5">
                 Faucibus a pellentesque sit amet porttitor eget dolor. Sed euismod nisi porta lorem mollis aliquam ut porttitor. Luctus accumsan tortor posuere ac ut consequat semper fames.
             </p>
         </div>
-        <div class="d-flex mx-lg-5 row d-flex justify-content-center ps-lg-5 ps-md-4 g-0">
+        <div class="d-flex mx-lg-5 row d-flex justify-content-center ps-lg-5 ps-md-4 g-0 fade-in">
             <div class="pe-lg-5 col-lg-8 ps-lg-5 mt-lg-4">
                 <input type="email" placeholder="Enter a valid email address" class="pe-lg-5 fs-5 w-100 ms-lg-5 pt-4 inp text-start">
             </div>
-            <div class="col-lg-4 pt-4 text-md-center  ms-md-0">
-                <button class="px-5 py-3 way-btn ms-lg-2 ms-5 ms-md-0">
-                    <span>TRY FOR FREE</span>
+            <div class="col-lg-4 pt-4 text-center  ms-md-0 ">
+                <button class="px-5 py-3 way-btn ms-lg-2 ms-1 ms-md-0 color-change">
+                    <span class="">TRY FOR FREE</span>
                 </button>
             </div>
         </div>
-        <div class="d-flex justify-content-center mt-5 wy1 fs-6 ms-3 ms-md-0">
+        <div class="d-flex justify-content-center mt-5 wy1 fs-6 ms-3 ms-md-0 fade-in">
             <span>
                 Free for 30 days
             </span>
@@ -349,33 +387,33 @@
                 <li class="px-md-2 mx-md-4">Cancel Anytime</li>
             </ul>
         </div>
-        <div class="text-center fs-3 fw-bold wy2 mt-5 mb-5">
+        <div class="text-center fs-3 fw-bold wy2 mt-5 mb-5 slide-down">
             <p>
                 trusted by the world’s best teams
             </p>
         </div>
         <div class="row d-flex justify-content-center ms-5 ps-md-5 pt-2 pb-5 g-0">
-            <div class="col-lg-4 col-md-6 ">
+            <div class="col-lg-4 col-md-6 fade-item">
                 <div class="">
                     <img src="./Images/binance-logo copy.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mt-3 mt-md-0 ps-3 ps-md-0">
+            <div class="col-lg-4 col-md-6 mt-3 mt-md-0 ps-3 ps-md-0 fade-in">
                 <div>
                     <img src="./Images/crolla.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mt-3 mt-md-0">
+            <div class="col-lg-4 col-md-6 mt-3 mt-md-0 fade-in">
                 <div>
                     <img src="./Images/evga-logo.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mt-3 mt-md-0">
+            <div class="col-lg-4 col-md-6 mt-3 mt-md-0 fade-in">
                 <div>
                     <img src="./Images/tesla-logo.png" alt="">
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mt-3 mt-md-0">
+            <div class="col-lg-4 col-md-6 mt-3 mt-md-0 fade-in">
                 <div>
                     <img src="./Images/sony.png" alt="">
                 </div>
@@ -388,40 +426,40 @@
         <div class="port-bg"></div>
         <div class="container pt-5 px-md-5 pb-md-5">
             <div class="row d-flex justify-content-center pt-md-5 px-md-5 pb-md-5 port-img">
-                <div class="col-lg-6 px-md-5">
+                <div class="col-lg-6 col-md-6 px-md-5 slide-up">
                     <div>
                         <img src="./Images/port-1.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-6 px-md-5 mt-4 mt-md-0">
+                <div class="col-lg-6 col-md-6 px-md-5 mt-4 mt-md-0 mt-lg-0 slide-down">
                     <div>
                         <img src="./Images/port-2.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-6 mt-4 px-md-5">
+                <div class="col-lg-6 col-md-6 mt-4 px-md-5 slide-up">
                     <div>
                         <img src="./Images/port-3.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-6 mt-4 px-md-5">
+                <div class="col-lg-6 col-md-6 mt-4 px-md-5 slide-down">
                     <div>
                         <img src="./Images/port-4.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-6 mt-4 px-md-5">
+                <div class="col-lg-6 col-md-6 mt-4 px-md-5 slide-up">
                     <div>
                         <img src="./Images/port-5.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-lg-6 mt-4 px-md-5">
+                <div class="col-lg-6 col-md-6 mt-4 px-md-5 slide-down">
                     <div>
                         <img src="./Images/port-6.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center px-5 me-5">
+            <div class="row d-flex justify-content-center px-md-5 me-md-5 ms-md-5 mt-lg-0 ms-lg-0">
                 <div class="col-lg-6"></div>
-                <div class="col-lg-6 port-card ps-4 pt-5 pe-5">
+                <div class="col-lg-6 port-card ps-md-4 pt-5 pe-md-3 fade-in">
                     <div class="">
                         <div class="port-head fs-5 fw-bold">
                             <p>Our Portfolio</p>
@@ -432,7 +470,7 @@
                             </p>
                         </div>
                         <div class="mb-5 mt-5">
-                            <button class="px-5 py-3 co-btn">
+                            <button class="px-5 py-3 co-btn color-change">
                                 <span>
                                     LEARN MORE
                                 </span>
@@ -443,15 +481,15 @@
             </div>
         </div>
     </section>
-    <!--  -->
-    <section class="container-fluid about pb-5 d-none d-sm-block">
+    <!---------------------- About------------------ -->
+    <section class="container-fluid about pb-5 d-none d-sm-block ">
         <div class="row g-0">
             <div class="col-lg-6 col-md-6">
                 <div class="way-1">
                     <img src="./Images/way-1-img.jpg" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 about-card ps-4 mt-5 ms-md-5">
+            <div class="col-lg-3 col-md-4 about-card ps-4 mt-5 ms-md-5 fade-in">
                 <div class="abt-head fs-1 fw-bold mt-4">
                     <p>
                         About Us
@@ -463,7 +501,7 @@
                     </p>
                 </div>
                 <div>
-                    <button class="px-5 py-3 abt-btn mb-5 mb-md-4">
+                    <button class="px-5 py-3 abt-btn mb-5 mb-md-4 color-change">
                        <span>
                             READ MORE
                         </span>
@@ -471,8 +509,8 @@
                 </div>
             </div>
             
-            <div class="text-center way-2  mt-5 g-0">
-                <img src="./Images/way-2.png" alt="" class="ms-md-5 img-fluid ps-md-5">
+            <div class="text-center way-2  mt-5 g-0 ms-lg-0 ps-lg-0 slide-up">
+                <img src="./Images/way-2.png" alt="" class="img-fluid">
             </div>
         </div>
     </section>
@@ -480,24 +518,24 @@
 
     <section class="container-fluid about pb-5 mx-0 px-0 d-block d-sm-none">
         <div class="row g-0 px-0 mx-0">
-            <div class="col-lg-6 col-md-6 order-2">
-                <div class="way-11 ms-1">
-                    <img src="./Images/way-1-img.jpg" alt="" class="img-fluid">
+            <div class="col-lg-6 col-md-6 order-2 slide-down">
+                <div class="way-11 ms-3 ms-md-1 mt-5">
+                    <img src="./Images/way-ai-1.jpg" alt="" class="img-fluid">
                 </div>
             </div>
-            <div class="col-lg-3 col-md-4 about-card1 ms-1 ps-2 mt-5">
+            <div class="col-lg-3 col-md-4 about-card1 ms-3 ms-md-1 ps-2 mt-5 fade-in">
                 <div class="abt-head order-1 fs-1 fw-bold mt-4">
                     <p>
                         About Us
                     </p>
                 </div>
-                <div class="abt-p pt-3 pb-4">
+                <div class="abt-p pt-3 pb-4 px-3 px-md-0">
                     <p>
                         Nunc mi ipsum faucibus vitae aliquet. Pellentesque elit eget gravida cum sociis natoque penatibus. Urna duis convallis convallis tellus id interdum velit. Proin sed libero enim sed faucibus turpis in.
                     </p>
                 </div>
                 <div>
-                    <button class="px-5 py-3 abt-btn mb-5 mb-md-4">
+                    <button class="px-5 py-3 abt-btn mb-5 mb-md-4 color-change">
                        <span>
                             READ MORE
                         </span>
@@ -505,25 +543,25 @@
                 </div>
             </div>
             
-            <div class="text-center order-3 way-22  mt-5 mb-5 mb-sm-0 pb-5 pb-sm-0 g-0">
+            <div class="text-center order-3 way-22  mt-5 mb-5 mb-sm-0 pb-5 pb-sm-0 g-0 slide-up">
                 <img src="./Images/way-2.png" alt="" class="ms-md-5 img-fluid ps-md-5">
             </div>
         </div>
     </section>
-    <!-- ---------------------------- -->
+    <!-- ---------Our Section------------------- -->
     <section class="container-fluid our pb-5 mt-5 pt-5 mt-sm-0 pt-sm-0">
         <div class="container mt-5 pt-5 mt-sm-0 pt-sm-0">
-            <div class="our-head text-center display-4 fw-bold mt-5 pt-5">
+            <div class="our-head text-center display-4 fw-bold mt-5 pt-5 slide-down">
                 <p class="mt-5 pt-5 pt-sm-0 mt-sm-0">Our Way</p>
             </div>
-            <div class="op text-center fs-5">
+            <div class="op text-center fs-5 slide-down">
                 <p>
                     Our team is committed to making a positive impact for our clients, their users, and our community.
                 </p>
             </div>
-            <div class="row d-flex justify-content-center px-5 mx-5 mt-5">
-                <div class="col-md-6 our-card">
-                    <div class="oc-head display-4 fw-bold">
+            <div class="row d-flex justify-content-center px-md-5 mx-md-5 mt-md-5">
+                <div class="col-md-6 our-card fade-in">
+                    <div class="oc-head display-4 fw-bold color-text-black">
                         <p>
                             2019
                         </p>
@@ -534,9 +572,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 our-card">
-                    <div class="oc-head display-4 fw-bold">
-                        <p>
+                <div class="col-md-6 our-card fade-in">
+                    <div class="oc-head display-4 fw-bold ">
+                        <p class="color-text-black">
                             2020
                         </p>
                     </div>
@@ -546,9 +584,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 our-card mt-5">
-                    <div class="oc-head display-4 fw-bold">
-                        <p>
+                <div class="col-md-6 our-card mt-5 fade-in">
+                    <div class="oc-head display-4 fw-bold ">
+                        <p class="color-text-black">
                             2021
                         </p>
                     </div>
@@ -558,9 +596,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 our-card mt-5">
+                <div class="col-md-6 our-card mt-5 fade-in">
                     <div class="oc-head display-4 fw-bold">
-                        <p>
+                        <p class="color-text-black">
                             2022
                         </p>
                     </div>
@@ -575,17 +613,17 @@
     </section>
     <section class="container-fluid get">
         <div class="container get-in pb-5">
-            <div class="fs-1 fw-bold get-head pt-5 ms-5">
+            <div class="fs-1 fw-bold get-head pt-5 ms-5 slide-up">
                 <p>
                     Get in Touch
                 </p>
             </div>
-            <div class="fs-4 ms-5 fw-lighter">
+            <div class="fs-4 ms-5 fw-lighter slide-up">
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
             </div>
-            <div class="ms-5">
+            <div class="ms-5 slide-up">
                 <div class="fs-5">
                     <span><i class="bi bi-envelope-fill pe-4"></i> CHART TO US</span>
                 </div>
@@ -600,7 +638,7 @@
                     </p>
                 </div>
             </div>
-            <div class="ms-5">
+            <div class="ms-5 slide-down">
                 <div class="fs-5">
                     <span><i class="bi bi-geo-alt-fill pe-4"></i> OFFICE</span>
                 </div>
@@ -614,7 +652,7 @@
                     New York, NY 92103-9000
                 </p>
             </div>
-            <div class="fs-5 ms-5 pb-5">
+            <div class="fs-5 ms-5 pb-5 slide-up">
                 <span>
                     <i class="bi bi-telephone-fill pe-4"></i> PHONE
                 </span>
@@ -628,50 +666,62 @@
                 </p>
             </div>
             <div class="ms-5 fs-4">
-                <i class="fa-brands fa-facebook-f pe-3"></i>
-                <i class="bi bi-twitter pe-3"></i>
-                <i class="bi bi-instagram pe-3"></i>
-                <i class="bi bi-linkedin pe-3"></i>
-                <i class="fa-brands fa-pinterest-p pe-3"></i>
+                <a href="#"><i class="fa-brands fa-facebook-f pe-3 zoom color-icons"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter pe-3 zoom color-icons"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram pe-3 zoom color-icons"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in pe-3 zoom color-icons"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p pe-3 zoom color-icons"></i></a>
             </div>
         </div>
     </section>
     <!-- ---------------------- -->
     <section class="lvl">
         <div class="container lvl-in px-5 pb-5">
-            <div class="display-5 fw-bold lvl-head pt-5">
+            <div class="display-5 fw-bold lvl-head pt-5 fade-in">
                 <p class="">
                     Level up your brand
                 </p>
             </div>
-            <div class="fs-5">
+            <div class="fs-5 slide-down">
                 <p>
                     You can reach us anytime via <a href="#">hi@company.com</a>
                 </p>
             </div>
-            <div class="fs-5 row mb-5">
+            <div class="fs-5 row mb-5 slide-down">
                 <p>Name</p>
                 <input type="text" placeholder="Enter your name" class="col-12 ms-2 pt-2 pb-2 fs-4">
             </div>
-            <div class="fs-5 row mb-5">
+            <div class="fs-5 row mb-5 slide-down">
                 <p>Email</p>
                 <input type="text" placeholder="Enter your email" class="col-12 ms-2 pt-2 pb-2 fs-4">
             </div>
-            <div class="fs-5 row mb-5">
+            <div class="fs-5 row mb-5 slide-down">
                 <p>Phone</p>
                 <input type="text" placeholder="Enter your Phone(e.g +1(21)9999 890)" class="col-12 ms-2 pt-2 pb-2 fs-4">
             </div>
-            <div class="fs-5 row mb-5">
+            <div class="fs-5 row mb-5 slide-down">
                 <p>How can we help?</p>
                 <textarea class="ms-2 pe-5" rows="5" cols=""></textarea>
             </div>
             <div class="row pb-5">
-                <button class="pt-3 pb-3 ms-2 fs-5 fw-bold" >
+                <button class="pt-3 pb-3 ms-2 fs-5 fw-bold color-change-black">
                     <span>SUBMIT</span>
                 </button>
             </div>
         </div>
     </section>
+    <footer class="container-fluid foot fade-in">
+        <div class="pt-5 pb-5 text-center">
+            <p>
+                Sample text. Click to select the Text element
+            </p>
+        </div>
+        <div class="mt-5 pb-5 text-center foot-para">
+            <p>
+                <span >Templates</span> created with best <span>Website Builder</span>
+            </p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
