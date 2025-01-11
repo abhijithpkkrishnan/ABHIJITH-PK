@@ -7,8 +7,8 @@
 
     .toggler-icon {
         display: block; 
-        width: 25px; 
-        height: 4px; 
+        width: 23px; 
+        height: 3px; 
         background-color: #000; 
         margin: 5px auto; 
         transition: background-color 0.3s; 
@@ -411,6 +411,7 @@
 }
 .get-in{
     background-color: #a37fdf;
+    padding: 20px 20px;
 }
 .get-head{
     color: #ffffff;
@@ -420,18 +421,33 @@
     color: #ffffff;
     font-family: "Open Sans", serif;
 }
+.gpc{
+    color: #d8c8f2;
+}
+.gfc{
+    color: #ffffff ;
+}
+.til{
+    color: #f0adf4 !important;
+}
+
 /* ------------- */
 .lvl{
     background-color: #250455;
 }
 .lvl-in{
     background-color: #ffffff;
+    padding: 0 20px;
+   
+}
+.lvl-in p{
+    color: #111;
 }
 .lvl-head{
     font-family: "Raleway", serif;
 }
 .lvl a{
-    color: #f0adf4;
+    color: #ffffff;
     font-family: "Open Sans", serif;
 }
 .lvl input{
