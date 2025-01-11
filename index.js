@@ -59,6 +59,14 @@ $(document).ready(function () {
             $(this).css('color', '#ffffff'); 
         }
     );
-  
+    $('.gfc').hover(
+        function() {
+            $(this).css('color', '#e6e6e6');
+            
+        },
+        function() {
+            $(this).css('color', '#ffffff'); 
+        }
+    );
     
 });
