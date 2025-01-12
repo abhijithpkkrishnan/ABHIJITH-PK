@@ -1,6 +1,17 @@
+
 $(document).ready(function () {
     function fadeInOnScroll() {
-        $('.fade-in,.slide-up,.slide-down').each(function () {
+        $('.fade-in,.slide-up,.slide-down,.fade-in-3,.fade-in-4,.fade-in-5').each(function () {
+            const elementTop = $(this).offset().top;
+            const windowBottom = $(window).scrollTop() + $(window).height();
+
+            if (elementTop < windowBottom - 50) { 
+                $(this).addClass('visible');
+            } else {
+                $(this).removeClass('visible'); 
+            }
+        });
+        $('.fade-in-2').each(function () {
             const elementTop = $(this).offset().top;
             const windowBottom = $(window).scrollTop() + $(window).height();
 
@@ -69,4 +80,6 @@ $(document).ready(function () {
         }
     );
     
+    
 });
+
